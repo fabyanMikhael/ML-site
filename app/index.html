@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Test</title>
+    <link rel="stylesheet" type="text/css" href="CSS/styles.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.bundle.min.js"></script>
+    <script src="https://unpkg.com/brain.js@2.0.0-beta.2/dist/brain-browser.min.js"></script>
+</head>
+<body>
+
+<div class="Container">
+  <div class="Header">
+      <h1>Testing stuff</h1>
+  </div>
+  <div class="Body">
+      <div class="Nav">
+      </div>
+      <div class="Main">
+        <canvas id="myChart" width="500" height="600" style="margin-left:740px"></canvas>
+        <script src="chart.js"></script>
+
+      <div class="" id="Input-Form" style="margin:auto;margin-left:41%;">
+        <form>
+             <table>
+                 <tr>
+                     <td>FeedForward Data:</td>
+                     <td> <input type="text" id="NN-Input" name="text1" id="text1"/>
+                     <button type="button" onclick = "TestNN()" style="margin-bottom: 5px" class="btn btn-primary btn-lg">Predict</button>
+                     </td>
+                 </tr>
+                 <tr>
+                     <td>Training Data entry:</td>
+                     <td> <input type="text" id="NN-Add-Training-Data" name="text2" id="text2"/>
+                      <button type="button" onclick = "AddTrainingData()"  class="btn btn-primary btn-lg">Add</button>
+                     </td>
+                 </tr>
+
+             </table>
+         </form>
+
+         <div class = "DataAndTrain">
+           
+         <ul id="test1">
+         </ul>
+
+         <button type="button" id = "TrainButton" onclick = "TrainNN()" class="btn btn-primary btn-lg">Train</button>
+        </div>
+
+       </div>
+
+
+      </div>
+  </div>
+  <div class="Footer">
+    Copyright &copy; 2021 Fool
+  </div>
+</div>
+
+<script src="Main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>

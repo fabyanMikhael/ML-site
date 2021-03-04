@@ -1,0 +1,44 @@
+.Footer {
+  color: gray;
+  font-size: 12px;
+}
+
+.Container {
+  text-align: center;
+}
+
+#Input-Form{
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+}
+
+#test1 div{
+display: flex;
+}
+
+#test1 button{
+margin-right: 20px;
+margin-bottom: 20px;
+padding: 10px;
+}
+
+.DataAndTrain{
+  margin: auto;
+  width: 20%;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.DataAndTrain button{
+  margin-left: 150px;
+}
+
+.Nav {
+  margin: auto;
+  width: 8%;
+}
+
+body {
+  color: black;
+}
